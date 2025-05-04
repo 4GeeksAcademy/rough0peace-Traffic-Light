@@ -9,3 +9,32 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.body{
+    height: 485px;
+    width: 170px;
+    margin: 50px;
+    border: solid;
+    background-color: gray;
+
+
+}
+.body div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: solid;
+    border-color: black; 
+    margin: 5px;
+}
+
+.active-green {
+    box-shadow: 0 0 100px 60px green;
+}
+.active-yellow {
+    box-shadow: 0 0 100px 60px yellow;
+}
+.active-red {
+    box-shadow: 0 0 100px 60px red;
+}
+
